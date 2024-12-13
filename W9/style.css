@@ -14,10 +14,11 @@ body {
   input, button {
     margin: 10px 5px;
     padding: 10px;
-    width: calc(50% - 20px);
+    width: calc(25% - 20px);
   }
   .result {
     font-size: 1.5rem;
     color: #333;
     margin-top: 20px;
   }
+  

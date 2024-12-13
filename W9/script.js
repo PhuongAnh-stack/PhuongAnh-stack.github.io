@@ -1,6 +1,7 @@
 function calculate(operator) {
     const a = parseFloat(document.getElementById('a').value);
     const b = parseFloat(document.getElementById('b').value);
+    const c = parseFloat(document.getElementById('c').value);
     const resultDiv = document.getElementById('result');
 
     // Validation
@@ -14,14 +15,13 @@ function calculate(operator) {
       return;
     }
 
-    // Perform calculation
     let result;
     switch (operator) {
-      case '+': result = a + b; 
+      case '+': result = a + b+ c; 
        break;
-      case '-': result = a - b;
+      case '-': result = a - b- c;
        break;
-      case '*': result = a * b; 
+      case '*': result = a * b * c; 
        break;
       case '/': result = a / b;
        break;
